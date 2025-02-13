@@ -29,3 +29,9 @@ ffmpeg -ss 120 -i big_buck_bunny.mkv  -t 30 -c:v copy -c:a copy 30_second_sample
 ```
 
 The above command starts at the 120-second marker, and takes a 30-second sample of the video file.
+
+## Check the path to the file hasn't changed
+
+If you don't rescan your library very often and use another app, like Whisparr, which to manage your library, files can move without your local stask knowing.
+
+Check the path in file info and if it has changed you can do a selective rescan to update the file path to the correct one.
